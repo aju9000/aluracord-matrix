@@ -1,6 +1,6 @@
 import { Box, Button, Text, TextField, Image } from '@skynexui/components';
-import react from 'react';
-import {} from 'next/router';
+import React from 'react';
+import { useRouter } from 'next/router';
 import appConfig from '../config.json';
 
 function Titulo(props) {
